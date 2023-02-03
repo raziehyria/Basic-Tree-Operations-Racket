@@ -98,11 +98,3 @@ More examples:
         #f)
 
  
-
-Part 6 - Bonus : Flatten
-
-Implement the function flatten, which takes a tree and returns a list that has all numbers in the tree’s nodes and leaves. The numbers should be ordered to match an inorder travsersal of the tree, and a number that appears multiple times in the tree should appear the same number of times in the list.
-
-Your function should run in time proportional to the size of the tree, which rules out making a list of the tree numbers using append on recursive calls. You may find it helpful to recur on a right subtree before a left subtree.
-
-Hint: Does the function take a list or a tree? Which template should you use?
